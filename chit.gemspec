@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{chit}
-  s.version = "1.0.1"
+  s.version = "1.0.1.1"
 
   s.specification_version = 2 if s.respond_to? :specification_version=
 
@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
   s.summary = %q{Chit is A command line tool for cheat sheet utility based on git.}
   s.test_files = ["test/test_chit.rb"]
 
-  s.add_dependency(%q<schacon-git>, [">= 1.0"])
+  s.add_dependency(%q<git>, [">= 1.0"])
   s.add_dependency(%q<hoe>, [">= 1.5.3"])
 end
